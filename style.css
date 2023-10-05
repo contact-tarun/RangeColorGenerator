@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  display: flex;
+}
+.headColor {
+  margin: 0 auto;
+  width: auto;
+  background-color: antiquewhite;
+  padding: 5px 10px;
+  text-align: center;
+}
+.leftBody {
+  position: relative;
+  top: -47px;
+  padding-top: 47px;
+  height: auto;
+  background-color: aliceblue;
+  width: 200px;
+}
+.leftBody img {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+.slogan {
+  position: absolute;
+  top: 150px;
+  left: 10px;
+}
+.colorLabel {
+  font-size: 20px;
+  margin-right: 10px;
+  text-align: end;
+  width: 60px;
+  color: wheat;
+}
+.enterColor {
+  font-size: 25px;
+  margin-top: 130px;
+}
+.RGBColor {
+  width: auto;
+  margin-top: 10px;
+  text-align: center;
+  font-size: 25px;
+}
+#range-insert {
+  font-size: 25px;
+  padding: 2px 5px;
+  /* height: 30px; */
+  margin: 10px 0;
+  width: 180px;
+  float: right;
+}
+.leftBody button {
+  margin: 0 10px 0 10px;
+  background-color: black;
+  color: white;
+  width: 180px;
+  font-size: 20px;
+  padding: 2px 0;
+  border: 0;
+}
+#GFG_DOWN {
+  text-align: center;
+  font-size: 25px;
+}
+
+.rightBody {
+  margin: 0 auto;
+  width: 80%;
+}
+.box {
+  display: flex;
+  width: 100%;
+}
+.range-slider {
+  margin: 6px auto;
+
+  width: 95%;
+}
+.inputBox {
+  width: 100%;
+  text-align: center;
+}
+.combination {
+  margin-top: 10px;
+  color: white;
+}
+.combinationp {
+  text-align: center;
+}
+
+.twoColor {
+  place-content: center;
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 50px;
+  row-gap: 20px;
+}
+.twoColorBox {
+  width: 410px;
+  text-align: center;
+}
+
+@media screen and (min-device-width: 501px) and (max-device-width: 992px) {
+  .combinationp {
+    font-size: 13px;
+  }
+}
+
+@media screen and (min-device-width: 200px) and (max-device-width: 500px) {
+  .combinationp {
+    font-size: 10px;
+  }
+  .leftBody {
+    height: 180px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  section {
+    flex-direction: column;
+  }
+  .enterColor {
+    margin-top: 0;
+    margin-left: 200px;
+  }
+  #range-insert {
+    width: 150px;
+  }
+  .leftBody button {
+    width: auto;
+    padding: 5px;
+  }
+}

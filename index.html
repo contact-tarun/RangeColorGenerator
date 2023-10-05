@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="windows icon" type="png" href="image/colorlogo.png" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Audiowide"
+    />
+  </head>
+  <body>
+    <section>
+      <div class="leftBody">
+        <div class="enterColor">Enter Color Name</div>
+        <input type="text" id="range-insert" />
+        <br />
+        <button onclick="colorChange()">Convert</button>
+        <div class="RGBColor">
+          RGB : <span id="range-slider__value">RGB(0,0,0)</span>
+        </div>
+        <br />
+        <p id="GFG_DOWN">Hex Color Code : #000000</p>
+        <img src="image/colorlogo.png" width="100" />
+        <div class="slogan">Where Colors Create Magic</div>
+      </div>
+      <div class="rightBody">
+        <h1 class="headColor">Color Combination</h1>
+        <div class="inputBox">
+          <div class="box redBox">
+            <div class="colorLabel">Red</div>
+            <input
+              class="range-slider"
+              id="range-slider__red"
+              type="range"
+              value="0"
+              min="0"
+              max="255"
+            />
+          </div>
+
+          <div class="box greenBox">
+            <div class="colorLabel">Green</div>
+            <input
+              class="range-slider"
+              id="range-slider__green"
+              type="range"
+              value="0"
+              min="0"
+              max="255"
+            />
+          </div>
+
+          <div class="box blueBox">
+            <div class="colorLabel">Blue</div>
+            <input
+              class="range-slider"
+              id="range-slider__blue"
+              type="range"
+              value="0"
+              min="0"
+              max="255"
+            />
+          </div>
+        </div>
+
+        <div class="inputBox combination">
+          <h1>Double Color combination</h1>
+          <p class="combinationp">
+            A color combination, also known as a color scheme or color palette,
+            refers to the selection and arrangement of colors used together in a
+            design, artwork, or any visual composition. Color combinations are
+            chosen intentionally to create a harmonious, visually appealing, and
+            balanced look. They play a significant role in various design
+            disciplines, including graphic design, web design, interior design,
+            fashion, and more.
+          </p>
+          <div class="twoColor">
+            <div class="twoColorBox">
+              <h4>Living Coral (#FC766AFF) and Pacific Coast (#5B84B1FF)</h4>
+              <img
+                src="image/colorCombination_10_1650382214423_resize.avif"
+                width="250"
+              />
+            </div>
+            <div class="twoColorBox">
+              <h4>Black (#101820FF) and Blazing Yellow (#FEE715FF)</h4>
+              <img
+                src="image/colorCombination_13_1650382476927_resize.avif"
+                width="250"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
